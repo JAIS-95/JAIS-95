@@ -27,14 +27,13 @@ class about_me:
                   'Protein structure','peptide prediction','AI/ML-driven drug discovery',
                   'Metagenomics & biosynthetic gene clusters','Plant-derived Bioactive peptides']
 
-## Created Intro class
 Intro = about_me("name", "role")
 
-## method calling
 Intro.research_experience()
 
 print(f"I'm a {Intro.role} with a Ph.D. in {Intro.PhD} and postdoctoral experience in {Intro.Postdoc}.")
 
+##
 * My work sits at the intersection of **genomics**, **machine learning**, and **bioinformatics**, where I develop scalable pipelines, predictive models, and tools to accelerate scientific research.
 * Currently a Postdoctoral Research Associate at the **Antimicrobial Discovery Center, Northeastern University**, where I work with NGS data, protein language models, and machine learning pipelines for biosynthetic gene cluster and target prediction and metagenomic analysis.
 
