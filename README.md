@@ -12,28 +12,6 @@
 
 ## 👋 About Me
 
-class about_me:
-
-    def __init__(self, name, role):
-        self.name = "Mohini Jaiswal, PhD"
-        self.role = "Computational Biologist"
-    
-    def research_experience(self):
-        self.PhD = "Plant Genome Research"
-        self.Postdoc = "Antimicrobial Drug Discovery"
-
-    def research_interests(self):
-        domain = ['Functional genomics','multi-omics integration',
-                  'Protein structure','peptide prediction','AI/ML-driven drug discovery',
-                  'Metagenomics & biosynthetic gene clusters','Plant-derived Bioactive peptides']
-
-Intro = about_me("name", "role")
-
-Intro.research_experience()
-
-print(f"I'm a {Intro.role} with a Ph.D. in {Intro.PhD} and postdoctoral experience in {Intro.Postdoc}.")
-
-##
 * My work sits at the intersection of **genomics**, **machine learning**, and **bioinformatics**, where I develop scalable pipelines, predictive models, and tools to accelerate scientific research.
 * Currently a Postdoctoral Research Associate at the **Antimicrobial Discovery Center, Northeastern University**, where I work with NGS data, protein language models, and machine learning pipelines for biosynthetic gene cluster and target prediction and metagenomic analysis.
 
